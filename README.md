@@ -99,6 +99,18 @@ E --> F
 F --> G
 G --> H
 H --> I
+
+classDef strategy fill:#E8F1FF,stroke:#4A6CF7,color:#000;
+classDef governance fill:#F0F7ED,stroke:#4CAF50,color:#000;
+classDef decisions fill:#FFF4E5,stroke:#FF9800,color:#000;
+classDef visibility fill:#F3E8FF,stroke:#9C27B0,color:#000;
+classDef intelligence fill:#E0F7FA,stroke:#00ACC1,color:#000;
+
+class A strategy
+class B,C,D governance
+class E,F decisions
+class G,H visibility
+class I intelligence
 ```
 
 The architecture illustrates how enterprise strategy flows through governance mechanisms to produce traceable portfolio decisions.
