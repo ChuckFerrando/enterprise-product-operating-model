@@ -91,26 +91,14 @@ subgraph Decision_Intelligence
     I[AI Assisted Scenario Modeling]
 end
 
-A --> B
-B --> C
-C --> D
-D --> E
-E --> F
-F --> G
-G --> H
-H --> I
-
-classDef strategy fill:#E8F1FF,stroke:#4A6CF7,color:#000;
-classDef governance fill:#F0F7ED,stroke:#4CAF50,color:#000;
-classDef decisions fill:#FFF4E5,stroke:#FF9800,color:#000;
-classDef visibility fill:#F3E8FF,stroke:#9C27B0,color:#000;
-classDef intelligence fill:#E0F7FA,stroke:#00ACC1,color:#000;
-
-class A strategy
-class B,C,D governance
-class E,F decisions
-class G,H visibility
-class I intelligence
+A -- strategic priorities --> B
+B -- investment evaluation --> C
+C -- prioritized initiatives --> D
+D -- risk assessment --> E
+E -- executive decisions --> F
+F -- portfolio updates --> G
+G -- operational visibility --> H
+H -- decision history --> I
 ```
 
 The architecture illustrates how enterprise strategy flows through governance mechanisms to produce traceable portfolio decisions.
