@@ -23,7 +23,7 @@ flowchart TD
     G --> H[Decision Log and Institutional Memory]
     H --> I[AI Assisted Scenario Modeling]
 ```
-
+This architecture illustrates how enterprise strategy flows through governance mechanisms to produce traceable portfolio decisions.
 ---
 
 # Operating System Objectives
