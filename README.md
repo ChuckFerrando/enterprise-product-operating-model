@@ -36,7 +36,6 @@ H --> I[AI Assisted Scenario Modeling]
 ```
 
 Architecture flow from strategy through governance to traceable portfolio decisions.
-
 ---
 
 ## Portfolio Heatmap Example
