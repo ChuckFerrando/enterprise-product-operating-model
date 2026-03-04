@@ -279,6 +279,47 @@ This operating system is designed for leaders responsible for complex product an
 - Defense and regulated-industry operators  
 
 ---
+## Executive Scenario Walkthrough
+
+The following scenario illustrates how the portfolio operating system supports executive decision-making.
+
+### Scenario
+
+An organization is managing a portfolio of 25 product initiatives across multiple engineering teams.
+
+Leadership needs to determine:
+
+- which initiatives should receive additional investment
+- which initiatives present emerging delivery risk
+- whether resources should be reallocated across the portfolio
+
+### Step 1: Portfolio Visibility
+
+The portfolio heatmap provides a visual overview of initiative priority and delivery risk, allowing leadership to quickly identify high-impact initiatives and potential execution concerns.
+
+### Step 2: Initiative Evaluation
+
+Each initiative is evaluated using the portfolio scoring matrix and risk scoring model to ensure investment decisions are aligned with enterprise strategy and delivery capacity.
+
+### Step 3: Executive Decision
+
+Significant portfolio decisions are documented using the investment memo and executive decision brief templates.
+
+Leadership may choose to:
+
+- increase investment in high-priority initiatives
+- mitigate risks through resource adjustments
+- pause or defer lower-priority initiatives
+
+### Step 4: Governance Traceability
+
+All decisions are recorded in the portfolio decision log, ensuring transparency and preserving institutional memory for future governance cycles.
+
+---
+
+This process improves **decision velocity, portfolio transparency, and delivery predictability** across complex technology organizations.
+
+---
 
 # Versioning
 
