@@ -62,7 +62,7 @@ The goal is clarity at scale.
 
 ---
 
-# Operating System Architecture
+# Operating System Layers
 
 The system is composed of several integrated layers.
 
