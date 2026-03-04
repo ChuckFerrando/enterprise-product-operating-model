@@ -62,6 +62,39 @@ The goal is to provide a repeatable framework that improves decision velocity, p
 
 ---
 
+## Operating Cadence
+
+The portfolio operating system is designed to run on a structured governance cadence.
+
+### Quarterly Portfolio Review
+
+Executive leadership evaluates portfolio health, strategic alignment, and investment allocation.
+
+Activities include:
+
+- reviewing portfolio heatmap and initiative prioritization
+- assessing delivery risk across active initiatives
+- approving new strategic investments
+- reallocating resources across the portfolio
+
+### Monthly Execution Review
+
+Product and engineering leadership review initiative progress and operational risk.
+
+Activities include:
+
+- reviewing initiative status and delivery milestones
+- evaluating emerging risks and dependencies
+- escalating issues requiring executive decisions
+
+### Decision Governance
+
+Significant portfolio decisions are documented using the investment memo and executive decision brief templates contained in this repository.
+
+All decisions are recorded in the portfolio **decision log** to maintain traceability and institutional memory.
+
+---
+
 ## Portfolio Operating System Architecture
 
 ```mermaid
