@@ -8,6 +8,19 @@ It is designed for environments where delivery predictability, capital disciplin
 
 ---
 
+## Contents
+- Portfolio Operating System Architecture
+- Portfolio Heatmap Example
+- Operating System Objectives
+- Repository Structure
+- Governance Frameworks
+- Executive Decision Artifacts
+- Governance Traceability
+- AI-Assisted Decision Support
+- Versioning / License
+
+---
+
 ## Portfolio Operating System Architecture
 
 ```mermaid
