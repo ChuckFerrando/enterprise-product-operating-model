@@ -5,6 +5,24 @@
 ![Status](https://img.shields.io/badge/status-active-development-orange)
 ![Architecture](https://img.shields.io/badge/architecture-enterprise-blueviolet)
 
+## 10-Second Overview
+
+**What this repository is:**  
+A governance operating system for managing product and technology portfolios.
+
+**What problem it solves:**  
+Translates enterprise strategy into prioritized, funded initiatives with structured execution governance.
+
+**Key capabilities included:**
+
+- capital allocation framework
+- portfolio prioritization and scoring
+- delivery risk evaluation
+- executive investment decision artifacts
+- portfolio visibility through heatmaps
+- governance traceability via decision logs
+- AI-assisted scenario modeling
+
 This repository documents a structured operating system for governing product and technology portfolios in complex, mission-critical environments.
 
 The system integrates strategy decomposition, capital allocation, portfolio scoring, risk governance, and executive decision support into a coherent framework.
