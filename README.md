@@ -68,27 +68,27 @@ The goal is to provide a repeatable framework that improves decision velocity, p
 flowchart LR
 
 subgraph Strategy
-    A[Enterprise Strategy]
+    A[Enterprise<br>Strategy]
 end
 
 subgraph Investment_Governance
-    B[Capital Allocation Model]
-    C[Portfolio Scoring Matrix]
-    D[Risk Scoring Model]
+    B[Capital Allocation<br>Model]
+    C[Portfolio Scoring<br>Matrix]
+    D[Risk Scoring<br>Model]
 end
 
 subgraph Executive_Decisioning
-    E[Investment Memo and Decision Briefs]
-    F[Execution Governance Cadence]
+    E[Investment Memo<br>Decision Briefs]
+    F[Execution Governance<br>Cadence]
 end
 
 subgraph Portfolio_Visibility
-    G[Portfolio Heatmap and Visibility]
-    H[Decision Log and Institutional Memory]
+    G[Portfolio Heatmap<br>Visibility]
+    H[Decision Log<br>Institutional Memory]
 end
 
 subgraph Decision_Intelligence
-    I[AI Assisted Scenario Modeling]
+    I[AI Assisted<br>Scenario Modeling]
 end
 
 A -- strategic priorities --> B
