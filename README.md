@@ -33,7 +33,6 @@ flowchart TD
   F --> G[Portfolio Heatmap and Visibility]
   G --> H[Decision Log and Institutional Memory]
   H --> I[AI Assisted Scenario Modeling]
-```
 
 Architecture flow from strategy through governance to traceable portfolio decisions.
 
@@ -48,7 +47,7 @@ Bubble size represents relative capital allocation.
 
 ---
 
-# Operating System Objectives
+## Operating System Objectives
 
 The portfolio operating system exists to:
 
@@ -62,7 +61,7 @@ The goal is clarity at scale.
 
 ---
 
-# Operating System Layers
+## Operating System Layers
 
 The system is composed of several integrated layers.
 
