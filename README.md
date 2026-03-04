@@ -1,10 +1,33 @@
 # Product & Technology Portfolio Operating System
 
+![Version](https://img.shields.io/badge/version-v0.10-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-development-orange)
+![Architecture](https://img.shields.io/badge/architecture-enterprise-blueviolet)
+
 This repository documents a structured operating system for governing product and technology portfolios in complex, mission-critical environments.
 
 The system integrates strategy decomposition, capital allocation, portfolio scoring, risk governance, and executive decision support into a coherent framework.
 
 It is designed for environments where delivery predictability, capital discipline, and operational resilience are essential.
+
+## Operating Model Specification
+
+This repository defines a governance operating system for product and technology portfolios.
+
+The system specifies the mechanisms used to translate enterprise strategy into funded initiatives and to govern their execution across the portfolio lifecycle.
+
+The operating model includes:
+
+- strategic investment allocation
+- portfolio prioritization and scoring
+- delivery risk evaluation
+- executive decision artifacts
+- portfolio visibility and monitoring
+- governance traceability through decision logging
+- AI-assisted scenario modeling
+
+The goal is to provide a repeatable framework that improves decision velocity, portfolio transparency, and delivery predictability.
 
 ---
 
