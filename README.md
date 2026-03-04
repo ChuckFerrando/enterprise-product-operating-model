@@ -8,28 +8,27 @@ It is designed for environments where delivery predictability, capital disciplin
 
 ---
 
-**## Portfolio Operating System Architecture
-
-The portfolio operating system integrates governance mechanisms that translate strategy into executable, traceable portfolio decisions.
+## Portfolio Operating System Architecture
 
 ```mermaid
 flowchart TD
-    A[Enterprise Strategy] --> B[Capital Allocation Model]
-    B --> C[Portfolio Scoring Matrix]
-    C --> D[Risk Scoring Model]
-    D --> E[Investment Memo and Decision Briefs]
-    E --> F[Execution Governance Cadence]
-    F --> G[Portfolio Heatmap and Visibility]
-    G --> H[Decision Log and Institutional Memory]
-    H --> I[AI Assisted Scenario Modeling]**
+  A[Enterprise Strategy] --> B[Capital Allocation Model]
+  B --> C[Portfolio Scoring Matrix]
+  C --> D[Risk Scoring Model]
+  D --> E[Investment Memo and Decision Briefs]
+  E --> F[Execution Governance Cadence]
+  F --> G[Portfolio Heatmap and Visibility]
+  G --> H[Decision Log and Institutional Memory]
+  H --> I[AI Assisted Scenario Modeling]
 ```
-This architecture illustrates how enterprise strategy flows through governance mechanisms to produce traceable portfolio decisions.
+
+Architecture flow from strategy through governance to traceable portfolio decisions.
+
+---
 
 ## Portfolio Heatmap Example
 
-The following diagram illustrates how strategy flows through governance mechanisms to produce traceab
-
-Illustrative example showing how portfolio initiatives can be visualized by **strategic alignment** and **execution risk**.  
+Illustrative example showing how initiatives are visualized by strategic alignment and execution risk.  
 Bubble size represents relative capital allocation.
 
 ![Portfolio heatmap example](diagrams/portfolio-heatmap-example.png)
