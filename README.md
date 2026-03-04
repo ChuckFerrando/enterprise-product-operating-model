@@ -23,7 +23,6 @@ flowchart TD
   G --> H[Decision Log & Institutional Memory]
   H --> I[AI-Assisted Scenario Modeling]
 
-
 # Operating System Objectives
 
 The portfolio operating system exists to:
