@@ -25,39 +25,32 @@ It is designed for environments where delivery predictability, capital disciplin
 
 ```mermaid
 flowchart LR
+  subgraph Strategy
+    A[Enterprise Strategy]
+  end
 
-subgraph Strategy
-A[Enterprise Strategy]
-end
+  subgraph Investment Governance
+    B[Capital Allocation Model]
+    C[Portfolio Scoring Matrix]
+    D[Risk Scoring Model]
+  end
 
-subgraph Investment_Governance
-B[Capital Allocation Model]
-C[Portfolio Scoring Matrix]
-D[Risk Scoring Model]
-end
+  subgraph Executive Decisioning
+    E[Investment Memo and Decision Briefs]
+    F[Execution Governance Cadence]
+  end
 
-subgraph Executive_Decisioning
-E[Investment Memo and Decision Briefs]
-F[Execution Governance Cadence]
-end
+  subgraph Portfolio Visibility
+    G[Portfolio Heatmap and Visibility]
+    H[Decision Log and Institutional Memory]
+  end
 
-subgraph Portfolio_Visibility
-G[Portfolio Heatmap and Visibility]
-H[Decision Log and Institutional Memory]
-end
+  subgraph Decision Intelligence
+    I[AI Assisted Scenario Modeling]
+  end
 
-subgraph Decision_Intelligence
-I[AI Assisted Scenario Modeling]
-end
-
-A --> B
-B --> C
-C --> D
-D --> E
-E --> F
-F --> G
-G --> H
-H --> I
+  A --> B --> C --> D --> E --> F --> G --> H --> I
+```
 
 Architecture flow from strategy through governance to traceable portfolio decisions.
 
