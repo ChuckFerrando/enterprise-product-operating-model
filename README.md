@@ -25,14 +25,14 @@ It is designed for environments where delivery predictability, capital disciplin
 
 ```mermaid
 flowchart TD
-  A[Enterprise Strategy] --> B[Capital Allocation Model]
-  B --> C[Portfolio Scoring Matrix]
-  C --> D[Risk Scoring Model]
-  D --> E[Investment Memo and Decision Briefs]
-  E --> F[Execution Governance Cadence]
-  F --> G[Portfolio Heatmap and Visibility]
-  G --> H[Decision Log and Institutional Memory]
-  H --> I[AI Assisted Scenario Modeling]
+A[Enterprise Strategy] --> B[Capital Allocation Model]
+B --> C[Portfolio Scoring Matrix]
+C --> D[Risk Scoring Model]
+D --> E[Investment Memo and Decision Briefs]
+E --> F[Execution Governance Cadence]
+F --> G[Portfolio Heatmap and Visibility]
+G --> H[Decision Log and Institutional Memory]
+H --> I[AI Assisted Scenario Modeling]
 ```
 
 Architecture flow from strategy through governance to traceable portfolio decisions.
