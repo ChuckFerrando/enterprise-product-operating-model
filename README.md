@@ -24,18 +24,43 @@ It is designed for environments where delivery predictability, capital disciplin
 ## Portfolio Operating System Architecture
 
 ```mermaid
-flowchart TD
-A[Enterprise Strategy] --> B[Capital Allocation Model]
-B --> C[Portfolio Scoring Matrix]
-C --> D[Risk Scoring Model]
-D --> E[Investment Memo and Decision Briefs]
-E --> F[Execution Governance Cadence]
-F --> G[Portfolio Heatmap and Visibility]
-G --> H[Decision Log and Institutional Memory]
-H --> I[AI Assisted Scenario Modeling]
-```
+flowchart LR
+
+subgraph Strategy
+A[Enterprise Strategy]
+end
+
+subgraph Investment_Governance
+B[Capital Allocation Model]
+C[Portfolio Scoring Matrix]
+D[Risk Scoring Model]
+end
+
+subgraph Executive_Decisioning
+E[Investment Memo and Decision Briefs]
+F[Execution Governance Cadence]
+end
+
+subgraph Portfolio_Visibility
+G[Portfolio Heatmap and Visibility]
+H[Decision Log and Institutional Memory]
+end
+
+subgraph Decision_Intelligence
+I[AI Assisted Scenario Modeling]
+end
+
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+F --> G
+G --> H
+H --> I
 
 Architecture flow from strategy through governance to traceable portfolio decisions.
+
 ---
 
 ## Portfolio Heatmap Example
