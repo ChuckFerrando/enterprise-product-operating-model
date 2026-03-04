@@ -1,4 +1,4 @@
-# Product & Technology Portfolio Operating System
+# Product & Technology Portfolio Operating System Specification
 
 ![Version](https://img.shields.io/badge/version-v0.10-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
