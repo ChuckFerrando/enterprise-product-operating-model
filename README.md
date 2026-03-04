@@ -27,19 +27,12 @@ The goal is clarity at scale.
 The system is composed of several integrated layers.
 
 - Strategy
-- ↓
 - Capital Allocation
-- ↓
 - Portfolio Scoring
-- ↓
 - Risk Evaluation
-- ↓
 - Investment Decisions
-- ↓
 - Execution Governance
-- ↓
 - Portfolio Visibility
-- ↓
 - Decision Traceability
 
 Each layer reinforces the others to maintain portfolio integrity.
