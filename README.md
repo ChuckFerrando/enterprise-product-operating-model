@@ -8,6 +8,29 @@ It is designed for environments where delivery predictability, capital disciplin
 
 ---
 
+## Portfolio Operating System Architecture
+
+```mermaid
+flowchart TD
+
+A[Enterprise Strategy] --> B[Capital Allocation Model]
+
+B --> C[Portfolio Scoring Matrix]
+
+C --> D[Risk Scoring Model]
+
+D --> E[Investment Memo & Decision Briefs]
+
+E --> F[Execution Governance Cadence]
+
+F --> G[Portfolio Heatmap & Visibility]
+
+G --> H[Decision Log & Institutional Memory]
+
+H --> I[AI-Assisted Scenario Modeling]
+
+---
+
 # Operating System Objectives
 
 The portfolio operating system exists to:
