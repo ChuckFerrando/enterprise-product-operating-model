@@ -137,6 +137,36 @@ H -- decision history --> I
 The architecture illustrates how enterprise strategy flows through governance mechanisms to produce traceable portfolio decisions.
 
 ---
+## System Boundaries and Responsibilities
+
+The portfolio operating system defined in this repository governs how product and technology initiatives are evaluated, prioritized, and monitored across the organization.
+
+The system operates at the intersection of strategy, product management, engineering execution, and executive governance.
+
+### Responsibilities of the Operating System
+
+- translating enterprise strategy into investment priorities  
+- prioritizing initiatives across the portfolio  
+- evaluating delivery risk and organizational dependencies  
+- providing executive decision artifacts and governance mechanisms  
+- maintaining portfolio transparency through visualization and reporting  
+- preserving decision history and institutional memory  
+
+### Systems and Functions It Interfaces With
+
+The operating system integrates with several adjacent organizational functions:
+
+| Function | Role |
+|--------|------|
+| Corporate Strategy | defines enterprise strategic priorities |
+| Product Management | proposes and manages initiatives |
+| Engineering Organizations | execute approved initiatives |
+| Finance | supports capital allocation decisions |
+| Executive Leadership | approves investments and monitors portfolio health |
+
+The mechanisms documented in this repository provide the governance layer that connects these functions.
+
+---
 
 ## Portfolio Heatmap Example
 
