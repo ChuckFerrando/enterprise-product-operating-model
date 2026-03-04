@@ -14,14 +14,17 @@ The portfolio operating system integrates governance mechanisms that translate s
 
 ```mermaid
 flowchart TD
-  A[Enterprise Strategy] --> B[Capital Allocation Model]
-  B --> C[Portfolio Scoring Matrix]
-  C --> D[Risk Scoring Model]
-  D --> E[Investment Memo & Decision Briefs]
-  E --> F[Execution Governance Cadence]
-  F --> G[Portfolio Heatmap & Visibility]
-  G --> H[Decision Log & Institutional Memory]
-  H --> I[AI-Assisted Scenario Modeling]
+    A[Enterprise Strategy] --> B[Capital Allocation Model]
+    B --> C[Portfolio Scoring Matrix]
+    C --> D[Risk Scoring Model]
+    D --> E[Investment Memo and Decision Briefs]
+    E --> F[Execution Governance Cadence]
+    F --> G[Portfolio Heatmap and Visibility]
+    G --> H[Decision Log and Institutional Memory]
+    H --> I[AI Assisted Scenario Modeling]
+```
+
+---
 
 # Operating System Objectives
 
