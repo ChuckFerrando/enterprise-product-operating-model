@@ -131,7 +131,15 @@ These templates provide standardized artifacts used in governance forums.
 - **Investment Memo Template** — board-ready investment proposals  
 - **Executive Decision Brief** — structured decision summaries  
 - **Quarterly Business Review Template** — portfolio performance reporting  
-- **Initiative One-Pager** — concise initiative overview  
+- **Initiative One-Pager** — concise initiative overview
+
+## Example Artifact
+
+A sample investment memo demonstrating how the governance templates in this repository are used in practice.
+
+See:
+
+`examples/sample-investment-memo.md`
 
 ---
 
