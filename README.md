@@ -1,9 +1,11 @@
-# Product & Technology Portfolio Operating System Specification
+# Product & Technology Portfolio Operating System
 
-![Version](https://img.shields.io/badge/version-v0.10-blue)
+![Version](https://img.shields.io/badge/version-v1.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Status](https://img.shields.io/badge/status-active-development-orange)
 ![Architecture](https://img.shields.io/badge/architecture-enterprise-blueviolet)
+![Status](https://img.shields.io/badge/status-active-orange)
+
+---
 
 ## 10-Second Overview
 
@@ -11,119 +13,61 @@
 A governance operating system for managing product and technology portfolios.
 
 **What problem it solves:**  
-Translates enterprise strategy into prioritized, funded initiatives with structured execution governance.
+Technology organizations frequently struggle with fragmented investment decisions, limited portfolio visibility, and misalignment between strategy and execution.
 
-**Key capabilities included:**
-
-- capital allocation framework
-- portfolio prioritization and scoring
-- delivery risk evaluation
-- executive investment decision artifacts
-- portfolio visibility through heatmaps
-- governance traceability via decision logs
-- AI-assisted scenario modeling
-
-This repository documents a structured operating system for governing product and technology portfolios in complex, mission-critical environments.
-
-The system integrates strategy decomposition, capital allocation, portfolio scoring, risk governance, and executive decision support into a coherent framework.
-
-It is designed for environments where delivery predictability, capital discipline, and operational resilience are essential.
-
-## Intended Audience
-
-This operating model is designed for leaders responsible for managing complex product and technology portfolios, including:
-
-- Chief Product Officers
-- Chief Technology Officers
-- VP Product Management
-- VP Product Operations
-- Portfolio Strategy and Execution leaders
-
-## Operating Model Specification
-
-This repository defines a governance operating system for product and technology portfolios.
-
-The system specifies the mechanisms used to translate enterprise strategy into funded initiatives and to govern their execution across the portfolio lifecycle.
-
-The operating model includes:
-
-- strategic investment allocation
-- portfolio prioritization and scoring
-- delivery risk evaluation
-- executive decision artifacts
-- portfolio visibility and monitoring
-- governance traceability through decision logging
-- AI-assisted scenario modeling
-
-The goal is to provide a repeatable framework that improves decision velocity, portfolio transparency, and delivery predictability.
+This operating system translates **enterprise strategy into prioritized initiatives** and governs their execution through structured investment frameworks, delivery risk evaluation, and executive decision artifacts.
 
 ---
 
-## Contents
-- Portfolio Operating System Architecture
-- Portfolio Heatmap Example
-- Operating System Objectives
-- Repository Structure
-- Governance Frameworks
-- Executive Decision Artifacts
-- Governance Traceability
-- AI-Assisted Decision Support
-- Versioning / License
+## Operating Model Specification
+
+This repository defines a **portfolio governance operating system** used to manage complex product and technology portfolios.
+
+The system provides mechanisms to:
+
+- translate enterprise strategy into funded initiatives  
+- prioritize investments across competing initiatives  
+- evaluate delivery risk across the portfolio  
+- provide structured decision artifacts for executive governance  
+- maintain portfolio visibility and institutional memory  
+
+The goal is to improve:
+
+- decision velocity  
+- capital allocation discipline  
+- portfolio transparency  
+- delivery predictability  
 
 ---
 
 ## Operating Cadence
 
-The portfolio operating system is designed to run on a structured governance cadence.
+The portfolio operating system runs on a structured governance cadence.
 
 ### Quarterly Portfolio Review
 
-Executive leadership evaluates portfolio health, strategic alignment, and investment allocation.
+Executive leadership evaluates portfolio health, strategic alignment, and capital allocation.
 
 Activities include:
 
-- reviewing portfolio heatmap and initiative prioritization
-- assessing delivery risk across active initiatives
-- approving new strategic investments
-- reallocating resources across the portfolio
+- reviewing portfolio heatmap and investment priorities  
+- evaluating delivery risk across initiatives  
+- approving new investments  
+- reallocating resources across the portfolio  
 
 ### Monthly Execution Review
 
-Product and engineering leadership review initiative progress and operational risk.
+Product and engineering leadership review delivery progress and operational risk.
 
 Activities include:
 
-- reviewing initiative status and delivery milestones
-- evaluating emerging risks and dependencies
-- escalating issues requiring executive decisions
+- reviewing initiative milestones  
+- evaluating delivery risks and dependencies  
+- escalating issues requiring executive decisions  
 
 ### Decision Governance
 
-Significant portfolio decisions are documented using the investment memo and executive decision brief templates contained in this repository.
-
-All decisions are recorded in the portfolio **decision log** to maintain traceability and institutional memory.
-
-## Problem the System Solves
-
-Technology organizations frequently struggle with:
-
-- fragmented investment decisions
-- limited portfolio visibility
-- misalignment between strategy and execution
-- inconsistent governance of major initiatives
-
-The portfolio operating system defined in this repository addresses these challenges by providing structured mechanisms for investment prioritization, delivery oversight, and executive decision governance.
-
-## Repository Structure
-
-The repository is organized around the core mechanisms of the portfolio operating system.
-
-| Folder | Purpose |
-|------|------|
-| docs | Operating model frameworks and governance mechanisms |
-| templates | Decision artifacts used by leadership teams |
-| examples | Example artifacts demonstrating the operating model in practice |
-| diagrams | Visual architecture and portfolio visualization assets |
+Significant portfolio decisions are documented using **investment memos and decision briefs** and recorded in the **decision log** to preserve institutional memory.
 
 ---
 
@@ -133,229 +77,187 @@ The repository is organized around the core mechanisms of the portfolio operatin
 flowchart LR
 
 subgraph Strategy
-    A[Enterprise<br>Strategy]
+  A[Enterprise<br>Strategy]
 end
 
 subgraph Investment_Governance
-    B[Capital Allocation<br>Model]
-    C[Portfolio Scoring<br>Matrix]
-    D[Risk Scoring<br>Model]
+  B[Capital Allocation<br>Model]
+  C[Portfolio Scoring<br>Matrix]
+  D[Risk Scoring<br>Model]
 end
 
 subgraph Executive_Decisioning
-    E[Investment Memo<br>Decision Briefs]
-    F[Execution Governance<br>Cadence]
+  E[Investment Memo<br>Decision Briefs]
+  F[Execution Governance<br>Cadence]
 end
 
 subgraph Portfolio_Visibility
-    G[Portfolio Heatmap<br>Visibility]
-    H[Decision Log<br>Institutional Memory]
+  G[Portfolio Heatmap<br>Visibility]
+  H[Decision Log<br>Institutional Memory]
 end
 
 subgraph Decision_Intelligence
-    I[AI Assisted<br>Scenario Modeling]
+  I[AI Assisted<br>Scenario Modeling]
 end
 
 A -- strategic priorities --> B
 B -- investment evaluation --> C
 C -- prioritized initiatives --> D
-D -- risk assessment --> E
+D -- delivery risk analysis --> E
 E -- executive decisions --> F
 F -- portfolio updates --> G
 G -- operational visibility --> H
 H -- decision history --> I
 ```
 
-The architecture illustrates how enterprise strategy flows through governance mechanisms to produce traceable portfolio decisions.
-
----
-## System Boundaries and Responsibilities
-
-The portfolio operating system defined in this repository governs how product and technology initiatives are evaluated, prioritized, and monitored across the organization.
-
-The system operates at the intersection of strategy, product management, engineering execution, and executive governance.
-
-### Responsibilities of the Operating System
-
-- translating enterprise strategy into investment priorities  
-- prioritizing initiatives across the portfolio  
-- evaluating delivery risk and organizational dependencies  
-- providing executive decision artifacts and governance mechanisms  
-- maintaining portfolio transparency through visualization and reporting  
-- preserving decision history and institutional memory  
-
-### Systems and Functions It Interfaces With
-
-The operating system integrates with several adjacent organizational functions:
-
-| Function | Role |
-|--------|------|
-| Corporate Strategy | defines enterprise strategic priorities |
-| Product Management | proposes and manages initiatives |
-| Engineering Organizations | execute approved initiatives |
-| Finance | supports capital allocation decisions |
-| Executive Leadership | approves investments and monitors portfolio health |
-
-The mechanisms documented in this repository provide the governance layer that connects these functions.
+The architecture illustrates how enterprise strategy flows through governance mechanisms to produce **traceable portfolio decisions**.
 
 ---
 
 ## Portfolio Heatmap Example
 
-Illustrative example showing how initiatives are visualized by strategic alignment and execution risk.  
+Illustrative example showing how portfolio initiatives can be visualized by **strategic alignment and delivery risk**.
+
 Bubble size represents relative capital allocation.
 
 ![Portfolio heatmap example](diagrams/portfolio-heatmap-example.png)
 
 ---
 
-## Operating System Objectives
+## Operating System Components
 
-The portfolio operating system exists to:
+The portfolio operating system is composed of several integrated mechanisms.
 
-- Translate strategy into funded, executable initiatives
-- Ensure disciplined capital allocation across the portfolio
-- Surface and manage operational and delivery risk
-- Provide leadership with rapid portfolio visibility
-- Enable repeatable, auditable decision-making
-
-The goal is clarity at scale.
-
----
-
-## Operating System Layers
-
-The system is composed of several integrated layers.
-
-- Strategy
-- Capital Allocation
-- Portfolio Scoring
-- Risk Evaluation
-- Investment Decisions
-- Execution Governance
-- Portfolio Visibility
-- Decision Traceability
-
-Each layer reinforces the others to maintain portfolio integrity.
+| Component | Purpose |
+|---|---|
+| Strategy Decomposition | Translate enterprise strategy into actionable initiatives |
+| Capital Allocation | Prioritize investments across the portfolio |
+| Portfolio Scoring | Evaluate initiatives against strategic and operational criteria |
+| Risk Evaluation | Identify and quantify delivery risk |
+| Investment Decisions | Enable structured executive decision-making |
+| Execution Governance | Maintain alignment between strategy and delivery |
+| Portfolio Visibility | Provide leadership with portfolio transparency |
+| Decision Traceability | Preserve institutional memory and governance history |
 
 ---
-
-# Repository Structure
 
 ## Governance Frameworks
 
-Located in `/docs`.
+The operating system includes several governance mechanisms that support portfolio management.
 
-These documents define the operating mechanisms for portfolio governance.
+These frameworks include:
 
-- **Operating Model Principles** — foundational governance philosophy  
-- **Capital Allocation Model** — structured investment discipline  
-- **Portfolio Scoring Matrix** — quantitative initiative evaluation  
-- **Risk Scoring Model** — mission-grade risk assessment  
-- **Portfolio Heatmap Framework** — portfolio visualization model  
-- **Operating Cadence Design** — governance rhythm for decisions  
-- **Strategy Decomposition Method** — translating strategy into initiatives  
+- capital allocation model  
+- portfolio scoring matrix  
+- risk scoring framework  
+- investment memo template  
+- executive decision brief  
+- decision log  
 
----
-
-## Executive Decision Artifacts
-
-Located in `/templates`.
-
-These templates provide standardized artifacts used in governance forums.
-
-- **Investment Memo Template** — board-ready investment proposals  
-- **Executive Decision Brief** — structured decision summaries  
-- **Quarterly Business Review Template** — portfolio performance reporting  
-- **Initiative One-Pager** — concise initiative overview
-
-## Example Artifact
-
-A sample investment memo demonstrating how the governance templates in this repository are used in practice.
-
-See:
-
-`examples/sample-investment-memo.md`
+These mechanisms ensure **consistent evaluation of initiatives and disciplined portfolio governance**.
 
 ---
 
-## Governance Traceability
-
-- **Decision Log** — documented record of portfolio decisions
-
-This ensures institutional memory and auditability.
-
----
-
-# AI-Assisted Decision Support
-
-AI tools can assist portfolio leadership in:
-
-- Scenario modeling
-- Capital allocation tradeoff analysis
-- Risk stress testing
-- Executive narrative preparation
-
-AI supports decision clarity but does not replace governance authority.
-
----
-
-# Intended Audience
-
-This operating system is designed for leaders responsible for complex product and technology portfolios, including:
-
-- VP / Head of Product Operations  
-- Chief of Staff to CPO or CTO  
-- Strategy & Execution leaders  
-- Portfolio governance leaders  
-- Defense and regulated-industry operators  
-
----
 ## Executive Scenario Walkthrough
 
-The following scenario illustrates how the portfolio operating system supports executive decision-making.
+The following scenario illustrates how the operating system supports leadership decision-making.
 
 ### Scenario
 
-An organization is managing a portfolio of 25 product initiatives across multiple engineering teams.
+An organization manages a portfolio of **25 product initiatives across multiple engineering teams**.
 
-Leadership needs to determine:
+Leadership must determine:
 
-- which initiatives should receive additional investment
-- which initiatives present emerging delivery risk
-- whether resources should be reallocated across the portfolio
+- which initiatives require additional investment  
+- which initiatives present emerging delivery risk  
+- whether resources should be reallocated  
 
-### Step 1: Portfolio Visibility
+### Step 1 — Portfolio Visibility
 
-The portfolio heatmap provides a visual overview of initiative priority and delivery risk, allowing leadership to quickly identify high-impact initiatives and potential execution concerns.
+The portfolio heatmap provides a visual overview of initiative priority and delivery risk.
 
-### Step 2: Initiative Evaluation
+### Step 2 — Initiative Evaluation
 
-Each initiative is evaluated using the portfolio scoring matrix and risk scoring model to ensure investment decisions are aligned with enterprise strategy and delivery capacity.
+Each initiative is evaluated using the portfolio scoring matrix and risk scoring model.
 
-### Step 3: Executive Decision
+### Step 3 — Executive Decision
 
-Significant portfolio decisions are documented using the investment memo and executive decision brief templates.
+Leadership reviews **investment memos and decision briefs** to determine appropriate action.
 
-Leadership may choose to:
+Possible outcomes include:
 
-- increase investment in high-priority initiatives
-- mitigate risks through resource adjustments
-- pause or defer lower-priority initiatives
+- increasing investment in strategic initiatives  
+- mitigating delivery risk through resource adjustments  
+- pausing lower-priority initiatives  
 
-### Step 4: Governance Traceability
+### Step 4 — Governance Traceability
 
-All decisions are recorded in the portfolio decision log, ensuring transparency and preserving institutional memory for future governance cycles.
-
----
-
-This process improves **decision velocity, portfolio transparency, and delivery predictability** across complex technology organizations.
+All decisions are recorded in the **decision log**, preserving institutional memory and governance transparency.
 
 ---
 
-# Versioning
+## Repository Structure
 
-The repository evolves incrementally as operating mechanisms are refined.
+The repository contains the core artifacts used by the portfolio operating system.
+
+| Directory | Purpose |
+|---|---|
+| docs | Operating model frameworks and governance mechanisms |
+| templates | Executive decision artifacts used in governance forums |
+| examples | Example artifacts demonstrating the operating model |
+| diagrams | Visual architecture and portfolio visualization assets |
+
+---
+
+## AI-Assisted Decision Support
+
+AI tools can augment portfolio leadership by supporting:
+
+- scenario modeling for investment decisions  
+- capital allocation tradeoff analysis  
+- delivery risk stress testing  
+- preparation of executive decision artifacts  
+
+AI enhances analytical depth and decision preparation while governance authority remains with leadership.
+
+---
+
+## Intended Audience
+
+This operating model is designed for leaders responsible for managing complex product and technology portfolios, including:
+
+- Chief Product Officers  
+- Chief Technology Officers  
+- VP Product Management  
+- VP Product Operations  
+- Strategy & Execution leaders  
+
+---
+
+## Design Principles
+
+The operating system is designed around several guiding principles:
+
+**Strategy-driven investment**  
+Portfolio investments must align with enterprise strategic priorities.
+
+**Transparent decision frameworks**  
+Initiatives should be evaluated using consistent governance mechanisms.
+
+**Risk-aware portfolio management**  
+Delivery risk must be continuously evaluated and surfaced.
+
+**Traceable governance decisions**  
+Executive decisions must be documented and preserved.
+
+**Continuous portfolio visibility**  
+Leadership must maintain a real-time understanding of portfolio health.
+
+---
+
+## Versioning
+
+The portfolio operating system evolves as governance mechanisms are refined.
 
 Current release:
 
@@ -363,16 +265,6 @@ Current release:
 
 ---
 
-# Design Principles
+## License
 
-1. Governance should accelerate decisions, not slow them.
-2. Capital allocation is the highest-leverage portfolio decision.
-3. Risk must be visible before it can be managed.
-4. Portfolio complexity should resolve into clear signals.
-5. Institutional memory strengthens long-term execution.
-
----
-
-# License
-
-MIT License
+This repository is released under the MIT License.
