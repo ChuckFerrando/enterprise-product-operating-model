@@ -38,13 +38,18 @@ The result is a portfolio governance model that improves **investment alignment,
 ```mermaid
 flowchart TB
 
-A[Strategy Execution System] --> B[Portfolio Governance System]
-B --> C[Product Delivery System]
-C --> D[Customer Outcomes]
+A[Strategy Execution System]
+B[Portfolio Governance System]
+C[Product Delivery System]
+D[Customer Outcomes]
+E[Decision Intelligence System]
 
-E[Decision Intelligence System] --> B
+A --> B
+B --> C
+C --> D
+
+E --> B
 E --> C
-```
 
 Within the Product Leadership Systems Architecture, the Portfolio Governance System acts as the **decision layer between strategy and execution**.
 
@@ -144,7 +149,7 @@ This sequence mirrors how leadership typically interacts with the governance sys
 
 ## Related Systems
 
-The Portfolio Governance System operates as part of the broader **Product Leadership Systems Architecture**.
+The Portfolio Governance System operates as part of the broader Product Leadership Systems Architecture.
 
 | System | Purpose | Repository |
 |------|------|------|
@@ -156,22 +161,6 @@ The Portfolio Governance System operates as part of the broader **Product Leader
 Together these systems form the **Product Leadership Systems Architecture**, connecting strategy, governance, delivery, and decision intelligence.
 
 ---
-
-## License
-
-MIT License
-
-Copyright (c) 2026 Chuck Ferrando
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this documentation and associated files to use, copy, modify, merge,
-publish, distribute, sublicense, and/or sell copies, subject to the
-following conditions:
-
-The above copyright notice and this permission notice shall be included
-in all copies or substantial portions of the documentation.
-
-THE DOCUMENTATION IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 
 ## License
 
