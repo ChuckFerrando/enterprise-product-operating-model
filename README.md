@@ -50,6 +50,7 @@ C --> D
 
 E --> B
 E --> C
+```
 
 Within the Product Leadership Systems Architecture, the Portfolio Governance System acts as the **decision layer between strategy and execution**.
 
