@@ -209,6 +209,18 @@ The repository contains the core artifacts used by the portfolio operating syste
 
 ---
 
+## Architecture Decisions
+
+Significant governance design decisions are documented using Architecture Decision Records (ADRs).
+
+These records preserve the rationale behind operating model mechanisms and provide transparency for future evolution of the system.
+
+Example:
+
+`architecture-decisions/ADR-001-portfolio-scoring.md`
+
+---
+
 ## AI-Assisted Decision Support
 
 AI tools can augment portfolio leadership by supporting:
