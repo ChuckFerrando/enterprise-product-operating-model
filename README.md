@@ -29,6 +29,16 @@ The system integrates strategy decomposition, capital allocation, portfolio scor
 
 It is designed for environments where delivery predictability, capital discipline, and operational resilience are essential.
 
+## Intended Audience
+
+This operating model is designed for leaders responsible for managing complex product and technology portfolios, including:
+
+- Chief Product Officers
+- Chief Technology Officers
+- VP Product Management
+- VP Product Operations
+- Portfolio Strategy and Execution leaders
+
 ## Operating Model Specification
 
 This repository defines a governance operating system for product and technology portfolios.
@@ -92,6 +102,28 @@ Activities include:
 Significant portfolio decisions are documented using the investment memo and executive decision brief templates contained in this repository.
 
 All decisions are recorded in the portfolio **decision log** to maintain traceability and institutional memory.
+
+## Problem the System Solves
+
+Technology organizations frequently struggle with:
+
+- fragmented investment decisions
+- limited portfolio visibility
+- misalignment between strategy and execution
+- inconsistent governance of major initiatives
+
+The portfolio operating system defined in this repository addresses these challenges by providing structured mechanisms for investment prioritization, delivery oversight, and executive decision governance.
+
+## Repository Structure
+
+The repository is organized around the core mechanisms of the portfolio operating system.
+
+| Folder | Purpose |
+|------|------|
+| docs | Operating model frameworks and governance mechanisms |
+| templates | Decision artifacts used by leadership teams |
+| examples | Example artifacts demonstrating the operating model in practice |
+| diagrams | Visual architecture and portfolio visualization assets |
 
 ---
 
