@@ -116,6 +116,7 @@ This cadence ensures that portfolio decisions remain aligned with strategy while
 portfolio-governance-system
 │
 ├── architecture
+├── architecture-decisions
 ├── frameworks
 ├── templates
 ├── governance
@@ -125,7 +126,8 @@ portfolio-governance-system
 
 Each directory represents a component of the portfolio governance operating system:
 
-• **architecture** — system diagrams and architectural decision records  
+• **architecture** — system diagrams and architectural decision records 
+• **architecture-decisions** — architecture decision records documenting governance framework choices
 • **frameworks** — portfolio governance frameworks and scoring models  
 • **templates** — executive decision artifacts such as investment memos and decision logs  
 • **governance** — governance structures, decision authorities, and operating cadence  
