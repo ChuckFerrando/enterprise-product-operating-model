@@ -5,190 +5,131 @@
 ![Architecture](https://img.shields.io/badge/architecture-enterprise-blueviolet)
 ![Status](https://img.shields.io/badge/status-active-orange)
 
-Executive operating system for governing product and technology investments through prioritization, capital allocation, delivery risk evaluation, and portfolio visibility.
+The **Portfolio Governance System** defines the operating mechanisms used to evaluate, prioritize, fund, and monitor investments across a product organization.
 
-The Portfolio Governance System provides the structured decision framework used by leadership teams to determine **what initiatives receive investment, how resources are allocated, and how delivery risk is managed across the product portfolio**.
+This repository documents governance frameworks that connect enterprise strategy to product delivery through structured investment decision-making, capital allocation, and portfolio oversight.
 
----
-
-## 10-Second Overview
-
-What this repository represents:
-
-A complete governance operating system for managing product and technology investments at scale.
-
-What problem it solves:
-
-Many organizations struggle with fragmented prioritization, inconsistent funding decisions, weak portfolio visibility, and poor institutional memory of past investment decisions.
-
-This system establishes a repeatable executive mechanism to:
-
-- translate strategy into portfolio investments  
-- evaluate initiatives using consistent scoring models  
-- allocate capital and resources intentionally  
-- evaluate delivery risk across the portfolio  
-- maintain institutional memory through decision artifacts  
-
-The result is a portfolio governance model that improves **investment alignment, delivery predictability, and executive decision clarity**.
+This repository represents the **core governance operating system within the Product Leadership Systems Architecture**.
 
 ---
 
-## Role in the Product Leadership Systems Architecture
+## Overview
 
-The **Portfolio Governance System** serves as the central decision-making layer within the Product Leadership Systems Architecture. It connects enterprise strategy to product delivery by ensuring that investments are evaluated, prioritized, and governed through structured decision frameworks.
+Modern product organizations require structured governance mechanisms to ensure that strategic priorities translate into coordinated product investments and predictable delivery outcomes.
 
-Within the broader architecture, this system operates between strategy definition and delivery execution.
+The Portfolio Governance System provides the frameworks used to:
 
-**Strategy Execution System**  
-Defines enterprise strategy and strategic themes, translating leadership priorities into potential initiatives and investment opportunities that enter the governance process.
+• evaluate investment proposals  
+• prioritize initiatives across competing demands  
+• allocate capital and resources  
+• assess execution risk  
+• maintain portfolio-level visibility  
 
-**Portfolio Governance System (this repository)**  
-Evaluates investment proposals, allocates capital, assesses risk, and maintains portfolio visibility through structured governance mechanisms.
-
-**Product Delivery System**  
-Executes approved initiatives through product, engineering, and platform teams, delivering capabilities aligned with portfolio decisions.
-
-**Decision Intelligence System**  
-Provides analytical support for governance and delivery monitoring through portfolio metrics, scenario modeling, and AI-assisted decision preparation.
-
-Together, these systems form an integrated operating architecture that enables organizations to translate strategy into predictable delivery and measurable outcomes.
+These mechanisms allow leadership teams to make consistent, transparent investment decisions while maintaining alignment between strategy and delivery.
 
 ---
 
 ## Operating Model
 
-The Portfolio Governance System defines how product organizations govern investments across multiple initiatives and teams.
+The Portfolio Governance System sits between enterprise strategy and product delivery.
 
-Key operating responsibilities include:
+Strategy establishes priorities and investment themes. Governance mechanisms evaluate proposed initiatives against these priorities and determine which initiatives receive funding and organizational support.
 
-- translating strategic initiatives into investment candidates  
-- prioritizing initiatives using structured scoring frameworks  
-- allocating capital and delivery capacity across initiatives  
-- evaluating delivery risk across the portfolio  
-- maintaining executive decision artifacts and portfolio history  
+Once approved, initiatives move into product delivery where execution is monitored through portfolio-level reporting and risk indicators.
 
-The operating model ensures that portfolio decisions are **consistent, transparent, and traceable**.
-
----
-
-## Governance Lifecycle
-
-The Portfolio Governance System manages the lifecycle through which strategic initiatives are proposed, evaluated, funded, and monitored.  
-
-This lifecycle ensures that investments remain aligned with enterprise strategy while maintaining continuous oversight of delivery progress and execution risk.
-
-```mermaid
-flowchart TB
-
-A[Strategy Definition] --> B[Investment Proposal]
-
-B --> C[Portfolio Evaluation]
-
-C --> D[Governance Decision]
-
-D --> E[Delivery Monitoring]
-
-E --> F[Portfolio Insights & Feedback]
-
-F --> A
-```
+This operating model ensures that product organizations maintain alignment between strategic intent, investment decisions, and delivery outcomes.
 
 ---
 
 ## Core Components
 
-The Portfolio Governance System contains several core capabilities that support investment decision-making and portfolio oversight.
+The Portfolio Governance System includes several key governance capabilities.
 
 ### Portfolio Scoring Model
-Framework used to evaluate initiatives based on strategic alignment, risk exposure, and investment magnitude.
+
+A structured framework used to evaluate initiatives based on factors such as strategic alignment, expected impact, investment magnitude, and execution risk.
 
 ### Capital Allocation Model
-Mechanism used to distribute investment capacity across strategic themes and product domains.
+
+Mechanisms used to distribute investment capacity across strategic themes, product domains, and platform initiatives.
 
 ### Risk Assessment Framework
-Model used to evaluate delivery complexity, technical risk, and organizational dependencies.
+
+A model used to identify and evaluate delivery complexity, technical risk, and cross-team dependencies associated with proposed initiatives.
 
 ### Investment Memo
-Structured document used to present investment proposals to governance forums.
+
+A structured proposal document used to present initiatives to governance forums and executive leadership.
 
 ### Decision Log
-Record of governance decisions and associated rationale.
+
+A historical record of governance decisions, including approvals, deferrals, and rejected initiatives, along with supporting rationale.
 
 ### Portfolio Heatmap
-Visualization used to monitor execution risk and portfolio alignment.
 
----
-
-## Governance Cadence
-
-Portfolio governance typically operates on a structured review cadence.
-
-Monthly Portfolio Review  
-Leadership evaluates initiative progress, emerging delivery risks, and potential prioritization adjustments.
-
-Quarterly Portfolio Rebalancing  
-Leadership evaluates portfolio investment distribution and adjusts capital allocation based on strategic priorities.
-
-Annual Strategic Planning  
-Strategic themes and investment guardrails are defined, shaping the pipeline of future initiatives.
-
-This cadence ensures that portfolio decisions remain aligned with strategy while maintaining delivery visibility.
+A visualization used to monitor the portfolio across dimensions such as strategic alignment, investment magnitude, and delivery risk.
 
 ---
 
 ## Repository Structure
 
-```text
-portfolio-governance-system
-│
-├── architecture
-├── architecture-decisions
-├── frameworks
-├── templates
-├── governance
-├── artifacts
-└── visualizations
+The repository is organized into the following directories.
+
+```
+architecture/
+architecture-decisions/
+frameworks/
+templates/
+governance/
+artifacts/
+visualizations/
 ```
 
-Each directory represents a component of the portfolio governance operating system:
+**architecture/**  
+System diagrams and architecture documentation describing the governance operating model.
 
-- **architecture** — system diagrams and architecture documentation
-- **architecture-decisions** — architecture decision records documenting governance framework choices
-- **frameworks** — portfolio governance frameworks and scoring models
-- **templates** — executive decision artifacts such as investment memos and decision logs
-- **governance** — governance structures, decision authorities, and operating cadence
-- **artifacts** — example outputs produced by the governance system
-- **visualizations** — portfolio dashboards and decision-support visualizations
+**architecture-decisions/**  
+Architecture Decision Records (ADRs) documenting governance design decisions and tradeoffs.
 
----
+**frameworks/**  
+Governance frameworks including portfolio scoring models, capital allocation models, and risk evaluation approaches.
 
-## How to Navigate (Recommended Reading Order)
+**templates/**  
+Reusable governance artifacts such as investment memo templates and decision log formats.
 
-For readers exploring this repository for the first time, the following path provides the clearest overview of the system.
+**governance/**  
+Documentation describing governance forums, decision workflows, and oversight mechanisms.
 
-1. Review the [Portfolio Governance System Architecture](architecture/portfolio-governance-system-architecture.md) to understand the role of the system within the Product Leadership Systems Architecture.
-2. Examine the portfolio governance frameworks in the `frameworks` directory to understand how initiatives are evaluated.
-3. Review the governance operating model in the `governance` directory to see how decisions are made and maintained over time.
-4. Examine the [Investment Memo Template](templates/investment-memo-template.md) used to present portfolio proposals to leadership.
-5. Review the [Decision Log](templates/decision-log.md) structure used to maintain institutional memory of investment decisions.
-6. Explore the [Portfolio Heatmap Visualization](visualizations/portfolio-heatmap.md) and [Delivery Predictability Dashboard](visualizations/delivery-predictability-dashboard.md) to see how portfolio investments and delivery health are analyzed visually.
+**artifacts/**  
+Example governance artifacts illustrating how the frameworks are applied.
 
-This sequence mirrors how leadership typically interacts with the governance system during portfolio reviews.
+**visualizations/**  
+Portfolio visualizations including heatmaps and governance reporting examples.
 
 ---
 
-## Related Systems
+## Architecture Decisions
 
-The Portfolio Governance System operates as part of the broader Product Leadership Systems Architecture.
+Architecture Decision Records (ADRs) capture important governance design decisions, including:
 
-| System | Purpose | Repository |
-|---|---|---|
-| Strategy Execution System | Translates enterprise strategy into initiatives and portfolio-ready investments | https://github.com/ChuckFerrando/strategy-execution-system |
-| Product Delivery System | Operating model for executing funded initiatives with predictable delivery outcomes | https://github.com/ChuckFerrando/product-delivery-system |
-| Decision Intelligence System | AI-assisted analysis supporting portfolio governance and delivery decisions | https://github.com/ChuckFerrando/decision-intelligence-system |
-| Architecture Portal | Documentation index for the Product Leadership Systems Architecture | https://github.com/ChuckFerrando/product-leadership-systems |
+• why particular governance mechanisms were selected  
+• tradeoffs between alternative approaches  
+• long-term implications for the operating model  
 
-Together these systems form the Product Leadership Systems Architecture, connecting strategy, governance, delivery, and decision intelligence.
+These records provide transparency into how the governance system evolved over time.
+
+---
+
+## How to Navigate the Repository
+
+Readers new to the repository may find the following exploration path helpful:
+
+1. Start with the **architecture** directory to understand the governance operating model.
+2. Review the **frameworks** directory to explore the portfolio scoring, capital allocation, and risk evaluation models.
+3. Examine the **templates** and **artifacts** directories to see how governance frameworks are applied in practice.
+4. Explore the **visualizations** directory to understand how portfolio insights are presented to leadership.
+5. Review **architecture-decisions** to understand key design choices made when constructing the governance system.
+
 ---
 
 ## License
