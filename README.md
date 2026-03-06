@@ -83,7 +83,7 @@ Core components include:
 - **Portfolio Scoring Model** — structured evaluation of initiatives based on strategic alignment, value, and feasibility  
 - **Capital Allocation Model** — framework for distributing investment across initiatives and teams  
 - **Risk Scoring Model** — structured evaluation of delivery execution risk  
-- **Investment Memo Template** — standardized executive proposal used to present portfolio investment decisions  
+- **Investment Memo Template** — structured document used to present investment proposals for portfolio review
 - **Decision Log** — institutional record of portfolio decisions and tradeoffs  
 - **Governance Cadence Model** — structured schedule of portfolio review meetings  
 - **Portfolio Heatmap Visualization** — visual representation of initiative alignment and delivery risk
