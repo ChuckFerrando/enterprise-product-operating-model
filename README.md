@@ -74,22 +74,42 @@ The operating model ensures that portfolio decisions are **consistent, transpare
 
 ---
 
-## Core Components (Executive Artifacts)
+## Governance Lifecycle
 
-The Portfolio Governance System includes a set of structured decision artifacts used during executive portfolio reviews.
+The Portfolio Governance System manages the lifecycle through which strategic initiatives are proposed, evaluated, funded, and monitored.  
 
-Core components include:
+This lifecycle ensures that investments remain aligned with enterprise strategy while maintaining continuous oversight of delivery progress and execution risk.
 
-- **Portfolio Scoring Model** — structured evaluation of initiatives based on strategic alignment, value, and feasibility  
-- **Capital Allocation Model** — framework for distributing investment across initiatives and teams  
-- **Risk Scoring Model** — structured evaluation of delivery execution risk  
-- **[Investment Memo Template](templates/investment-memo-template.md)** — structured document used to present investment proposals for portfolio review
-- **Decision Log** — institutional record of portfolio decisions and tradeoffs  
-- **Governance Cadence Model** — structured schedule of portfolio review meetings  
-- **[Portfolio Heatmap Visualization](visualizations/portfolio-heatmap.md)** — visual representation used to evaluate investments across strategic alignment and delivery risk
-- **[Delivery Predictability Dashboard](visualizations/delivery-predictability-dashboard.md)** — leadership dashboard used to monitor execution health across portfolio initiatives
+```mermaid
+flowchart TB
 
-Together these artifacts form the core governance toolkit used by leadership to manage portfolio investments.
+A[Strategy Definition] --> B[Investment Proposal]
+
+B --> C[Portfolio Evaluation]
+
+C --> D[Governance Decision]
+
+D --> E[Delivery Monitoring]
+
+E --> F[Portfolio Insights & Feedback]
+
+F --> A
+```
+
+---
+
+## Core Components
+
+The Portfolio Governance System is composed of several interacting components that support investment evaluation, portfolio prioritization, and delivery oversight.
+
+Key components include:
+
+- **Portfolio Evaluation Frameworks** — scoring models, tiering approaches, and risk evaluation methods used to compare investment opportunities.
+- **Governance Operating Model** — decision authorities, stage-gate governance processes, and operating cadence that guide portfolio oversight.
+- **Governance Artifacts** — reusable templates used during investment reviews and decision making, such as the [Investment Memo Template](templates/investment-memo-template.md) and [Decision Log](templates/decision-log.md).
+- **Portfolio Visualizations** — decision-support tools used during portfolio reviews, including the [Portfolio Heatmap Visualization](visualizations/portfolio-heatmap.md) and the [Delivery Predictability Dashboard](visualizations/delivery-predictability-dashboard.md).
+
+Together these components form the governance layer connecting strategy definition with product delivery execution.
 
 ---
 
