@@ -35,26 +35,23 @@ The result is a portfolio governance model that improves **investment alignment,
 
 ## Role in the Product Leadership Systems Architecture
 
-```mermaid
-flowchart TB
+The **Portfolio Governance System** serves as the central decision-making layer within the Product Leadership Systems Architecture. It connects enterprise strategy to product delivery by ensuring that investments are evaluated, prioritized, and governed through structured decision frameworks.
 
-A[Strategy Execution System]
-B[Portfolio Governance System]
-C[Product Delivery System]
-D[Customer Outcomes]
-E[Decision Intelligence System]
+Within the broader architecture, this system operates between strategy definition and delivery execution.
 
-A --> B
-B --> C
-C --> D
+**Strategy Execution System**  
+Defines enterprise strategy and strategic themes, translating leadership priorities into potential initiatives and investment opportunities that enter the governance process.
 
-E --> B
-E --> C
-```
+**Portfolio Governance System (this repository)**  
+Evaluates investment proposals, allocates capital, assesses risk, and maintains portfolio visibility through structured governance mechanisms.
 
-Within the Product Leadership Systems Architecture, the Portfolio Governance System acts as the **decision layer between strategy and execution**.
+**Product Delivery System**  
+Executes approved initiatives through product, engineering, and platform teams, delivering capabilities aligned with portfolio decisions.
 
-It translates strategic initiatives into funded investments and provides the governance structure used to manage those investments throughout their lifecycle.
+**Decision Intelligence System**  
+Provides analytical support for governance and delivery monitoring through portfolio metrics, scenario modeling, and AI-assisted decision preparation.
+
+Together, these systems form an integrated operating architecture that enables organizations to translate strategy into predictable delivery and measurable outcomes.
 
 ---
 
@@ -100,16 +97,25 @@ F --> A
 
 ## Core Components
 
-The Portfolio Governance System is composed of several interacting components that support investment evaluation, portfolio prioritization, and delivery oversight.
+The Portfolio Governance System contains several core capabilities that support investment decision-making and portfolio oversight.
 
-Key components include:
+### Portfolio Scoring Model
+Framework used to evaluate initiatives based on strategic alignment, risk exposure, and investment magnitude.
 
-- **Portfolio Evaluation Frameworks** — scoring models, tiering approaches, and risk evaluation methods used to compare investment opportunities.
-- **Governance Operating Model** — decision authorities, stage-gate governance processes, and operating cadence that guide portfolio oversight.
-- **Governance Artifacts** — reusable templates used during investment reviews and decision making, such as the [Investment Memo Template](templates/investment-memo-template.md) and [Decision Log](templates/decision-log.md).
-- **Portfolio Visualizations** — decision-support tools used during portfolio reviews, including the [Portfolio Heatmap Visualization](visualizations/portfolio-heatmap.md) and the [Delivery Predictability Dashboard](visualizations/delivery-predictability-dashboard.md).
+### Capital Allocation Model
+Mechanism used to distribute investment capacity across strategic themes and product domains.
 
-Together these components form the governance layer connecting strategy definition with product delivery execution.
+### Risk Assessment Framework
+Model used to evaluate delivery complexity, technical risk, and organizational dependencies.
+
+### Investment Memo
+Structured document used to present investment proposals to governance forums.
+
+### Decision Log
+Record of governance decisions and associated rationale.
+
+### Portfolio Heatmap
+Visualization used to monitor execution risk and portfolio alignment.
 
 ---
 
