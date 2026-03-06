@@ -112,7 +112,7 @@ This cadence ensures that portfolio decisions remain aligned with strategy while
 
 ## Repository Structure
 
-```
+```text
 portfolio-governance-system
 │
 ├── architecture
@@ -126,19 +126,13 @@ portfolio-governance-system
 
 Each directory represents a component of the portfolio governance operating system:
 
-• **architecture** — system diagrams and architectural decision records
-
-• **architecture-decisions** — architecture decision records documenting governance framework choices
-
-• **frameworks** — portfolio governance frameworks and scoring models  
-
-• **templates** — executive decision artifacts such as investment memos and decision logs  
-
-• **governance** — governance structures, decision authorities, and operating cadence  
-
-• **artifacts** — example outputs produced by the governance system  
-
-• **visualizations** — portfolio dashboards and decision-support visualizations
+- **architecture** — system diagrams and architecture documentation
+- **architecture-decisions** — architecture decision records documenting governance framework choices
+- **frameworks** — portfolio governance frameworks and scoring models
+- **templates** — executive decision artifacts such as investment memos and decision logs
+- **governance** — governance structures, decision authorities, and operating cadence
+- **artifacts** — example outputs produced by the governance system
+- **visualizations** — portfolio dashboards and decision-support visualizations
 
 ---
 
@@ -146,12 +140,12 @@ Each directory represents a component of the portfolio governance operating syst
 
 For readers exploring this repository for the first time, the following path provides the clearest overview of the system.
 
-1. Review the **Portfolio Governance Overview** in the documentation directory.  
-2. Examine the **Portfolio Scoring Model** to understand how initiatives are evaluated.  
-3. Review the **Capital Allocation Model** to see how resources are distributed across initiatives.  
-4. Examine the **Investment Memo Template** used to present portfolio proposals to leadership.  
-5. Review the **Decision Log** structure used to maintain institutional memory of investment decisions.  
-6. Explore the **Portfolio Heatmap Visualization** to see how portfolio investments can be analyzed visually.
+1. Review the [Portfolio Governance System Architecture](architecture/portfolio-governance-system-architecture.md) to understand the role of the system within the Product Leadership Systems Architecture.
+2. Examine the portfolio governance frameworks in the `frameworks` directory to understand how initiatives are evaluated.
+3. Review the governance operating model in the `governance` directory to see how decisions are made and maintained over time.
+4. Examine the [Investment Memo Template](templates/investment-memo-template.md) used to present portfolio proposals to leadership.
+5. Review the [Decision Log](templates/decision-log.md) structure used to maintain institutional memory of investment decisions.
+6. Explore the [Portfolio Heatmap Visualization](visualizations/portfolio-heatmap.md) and [Delivery Predictability Dashboard](visualizations/delivery-predictability-dashboard.md) to see how portfolio investments and delivery health are analyzed visually.
 
 This sequence mirrors how leadership typically interacts with the governance system during portfolio reviews.
 
@@ -162,14 +156,13 @@ This sequence mirrors how leadership typically interacts with the governance sys
 The Portfolio Governance System operates as part of the broader Product Leadership Systems Architecture.
 
 | System | Purpose | Repository |
-|------|------|------|
+|---|---|---|
 | Strategy Execution System | Translates enterprise strategy into initiatives and portfolio-ready investments | https://github.com/ChuckFerrando/strategy-execution-system |
 | Product Delivery System | Operating model for executing funded initiatives with predictable delivery outcomes | https://github.com/ChuckFerrando/product-delivery-system |
 | Decision Intelligence System | AI-assisted analysis supporting portfolio governance and delivery decisions | https://github.com/ChuckFerrando/decision-intelligence-system |
 | Architecture Portal | Documentation index for the Product Leadership Systems Architecture | https://github.com/ChuckFerrando/product-leadership-systems |
 
-Together these systems form the **Product Leadership Systems Architecture**, connecting strategy, governance, delivery, and decision intelligence.
-
+Together these systems form the Product Leadership Systems Architecture, connecting strategy, governance, delivery, and decision intelligence.
 ---
 
 ## License
