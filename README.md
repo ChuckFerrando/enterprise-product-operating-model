@@ -86,7 +86,7 @@ Core components include:
 - **[Investment Memo Template](templates/investment-memo-template.md)** — structured document used to present investment proposals for portfolio review
 - **Decision Log** — institutional record of portfolio decisions and tradeoffs  
 - **Governance Cadence Model** — structured schedule of portfolio review meetings  
-- **Portfolio Heatmap Visualization** — visual representation of initiative alignment and delivery risk
+- **[Portfolio Heatmap Visualization](visualizations/portfolio-heatmap.md)** — visual representation used to evaluate investments across strategic alignment and delivery risk
 
 Together these artifacts form the core governance toolkit used by leadership to manage portfolio investments.
 
