@@ -1,3 +1,23 @@
+# Archived Repository
+
+This repository represents an earlier design exploration of the Product Leadership Systems Architecture.
+
+The concepts contained here have been consolidated into the unified architecture located in:
+
+➡ https://github.com/ChuckFerrando/product-leadership-systems-architecture
+
+The unified architecture integrates the following operating systems:
+
+• Strategy Execution  
+• Portfolio Governance  
+• Product Delivery  
+• Customer Outcomes  
+• Decision Intelligence  
+
+Readers should refer to the **Product Leadership Systems Architecture repository** for the current system model.
+
+---
+
 # Portfolio Governance System (Flagship)
 
 ![Version](https://img.shields.io/badge/version-v1.0-blue)
